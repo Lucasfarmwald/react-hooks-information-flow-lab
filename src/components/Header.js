@@ -1,8 +1,10 @@
-import react from "react"
+import React, {useState} from "react"
+import dark from "./App"
+
  
-function Header(){
+function Header(props){
   return(
-    console.log('hello')
+    <button onClick={dark}></button>
   )
 }
 
