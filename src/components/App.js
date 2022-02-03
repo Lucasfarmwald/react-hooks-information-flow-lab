@@ -18,7 +18,7 @@ function App() {
           {isDarkMode ? "Dark" : "Light"} Mode
         </button>
       </header>
-      <Header dark={handleDarkModeClick} />
+      <Header onDarkModeClick={handleDarkModeClick} />
       <ShoppingList items={itemData} />
     </div>
   );
